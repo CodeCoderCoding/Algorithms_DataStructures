@@ -1,7 +1,7 @@
 # DataStructures-Algorithms
 
-# TODO
-# DataStructures
+## TODO
+### DataStructures
 - [ ] Array
 - [ ] List
 - [ ] Stack
@@ -10,7 +10,7 @@
 - [ ] Tree
 - [ ] Hash
 - [ ] Figure
-# Algorithms
+### Algorithms
 - [ ] Greedy Algorithm
 - [ ] Divide and conquer algorithm
 - [ ] Dynamic algorithm
