@@ -1,5 +1,18 @@
 # DataStructures-Algorithms
 
 # TODO
-1. DataStructures
-2. Algorithms
+# DataStructures
+- [ ] Array
+- [ ] List
+- [ ] Stack
+- [ ] Queue
+- [ ] Heap
+- [ ] Tree
+- [ ] Hash
+- [ ] Figure
+# Algorithms
+- [ ] Greedy Algorithm
+- [ ] Divide and conquer algorithm
+- [ ] Dynamic algorithm
+- [ ] Randomized algorithm
+- [ ] Backtracking algorithm
