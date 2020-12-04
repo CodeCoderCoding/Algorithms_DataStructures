@@ -1,18 +1,39 @@
-# DataStructures-Algorithms
+# 数据结构与算法
 
-## TODO
-#### DataStructures
-- [ ] Array
-- [ ] List
-- [ ] Stack
-- [ ] Queue
-- [ ] Heap
-- [ ] Tree
-- [ ] Hash
-- [ ] Figure
-#### Algorithms
-- [ ] Greedy Algorithm
-- [ ] Divide and conquer algorithm
-- [ ] Dynamic algorithm
-- [ ] Randomized algorithm
-- [ ] Backtracking algorithm
+## 数据结构
+- 数组
+- 链表
+- 栈
+- 队列
+- 堆
+- 树
+- 哈希表
+
+## 查找
+- 静态查找
+    - 顺序查找
+    - 折半查找
+    分块查找
+- 动态查找
+    - 平衡二叉树
+
+
+## 排序
+- 内部排序
+    - 冒泡排序
+    - 选择排序
+    - 插入排序
+    - 希尔排序
+    - 归并排序
+    - 堆排序
+    - 计数排序
+    - 桶排序
+    - 基数排序
+- 外部排序
+    - 
+
+## 算法
+- 贪婪算法
+- 分治策略
+- 动态规划
+- 回溯算法
