@@ -5,7 +5,7 @@ public class LinkedList {
     /**
      * 链表的节点
      */
-    public class ListNode {
+    public static class ListNode {
         private int data;
         private ListNode next;
 
