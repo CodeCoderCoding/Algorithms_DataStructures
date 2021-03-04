@@ -1,7 +1,17 @@
 package List;
 
-public class DLLList {
+/**
+ *双向链表 DoublyLikedList
+ */
+public class DoublyLinkedList {
+    //相关属性
+    private DLLNode head;
+    private DLLNode tail;
+    private int length;
 
+    /**
+     * 双向链表的节点
+     */
     public class DLLNode{
         private int data;
         private DLLNode next;
@@ -15,13 +25,13 @@ public class DLLList {
         public DLLNode getPrevious(){return this.previous;}
     }
 
-    int getDLLLength(DLLNode headNode){
-        return 0;
+    int getDLLLength(){
+        return length;
     }
 
-    DLLNode insertLinkedList(DLLNode headNode,DLLNode insertNode,int position){
+    DLLNode insertDoublyLinkedList(DLLNode headNode,DLLNode insertNode,int position){
         if(headNode==null){return insertNode;}
-        int size=getDLLLength(headNode);
+        int size=getDLLLength();
         if(position>size+1||position<1){
             System.out.println("待插入结点位置无效，有效的插入位置为1到"+(size+1));
             return headNode;
@@ -45,8 +55,8 @@ public class DLLList {
         return headNode;
     }
 
-    DLLNode deleteNodeFromLinkedList(DLLNode headNode,int position){
-        int size=getDLLLength(headNode);
+    DLLNode deleteNodeFromDoublyLinkedList(DLLNode headNode,int position){
+        int size=getDLLLength();
         if(position>size||position<1){
             System.out.println("待结点结点位置无效，有效的删除位置为1到"+(size));
             return headNode;

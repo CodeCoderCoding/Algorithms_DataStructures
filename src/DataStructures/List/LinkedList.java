@@ -1,6 +1,11 @@
 package List;
 
+/**
+ * 单向链表 LinkedList
+ */
 public class LinkedList {
+    //表头指针
+    private ListNode head;
 
     /**
      * 链表的节点
@@ -32,7 +37,7 @@ public class LinkedList {
 
     /**
      * 计算链表的长度
-     * @param headNode
+     * @param headNode LinkedList LinkedList.getHeadNode()
      * @return
      */
     int listLength(ListNode headNode){
@@ -55,10 +60,12 @@ public class LinkedList {
     ListNode insertLinkedList(ListNode headNode,ListNode insertNode,int position){
         if(headNode==null){return insertNode;}
         int size=listLength(headNode);
+
         if(position>size+1||position<1){
             System.out.println("待插入结点位置无效，有效的插入位置为1到"+(size+1));
             return headNode;
         }
+
         if(position==1){//在表开头插入
             insertNode.setNext(headNode);
             return insertNode;

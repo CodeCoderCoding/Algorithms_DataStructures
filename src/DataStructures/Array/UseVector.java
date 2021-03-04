@@ -6,7 +6,7 @@ import java.util.Vector;
  * @author supremepole
  */
 public class UseVector {
-    public static void main(String[] args){
+    public static void main(String[] args){ //pc寄存器,程序顺序执行的位置
         Vector vector=new Vector(4,2);
         System.out.println("初始大小："+vector.size());//0
         System.out.println("初始容量："+vector.capacity());//4

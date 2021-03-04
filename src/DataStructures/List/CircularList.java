@@ -1,7 +1,13 @@
 package List;
 
+/**
+ * 循环链表
+ */
 public class CircularList {
 
+    /**
+     * 循环链表的节点
+     */
     public class CLLNode {
         private int data;
         private CLLNode next;
@@ -27,6 +33,11 @@ public class CircularList {
         }
     }
 
+    /**
+     * 计算循环链表的长度
+     * @param headNode
+     * @return
+     */
     int CircularListLength(CLLNode headNode){
         int length=0;
         CLLNode currentNode=headNode;
@@ -40,6 +51,10 @@ public class CircularList {
         return length;
     }
 
+    /**
+     * 打印循环链表的数据
+     * @param headNode
+     */
     void PrintCircularListData(CLLNode headNode){
         CLLNode CLLNode=headNode;
         while(CLLNode!=null){
@@ -52,6 +67,11 @@ public class CircularList {
         System.out.println("("+CLLNode.getData()+")headNode");
     }
 
+    /**
+     * 在循环链表的尾部插入节点
+     * @param headNode
+     * @param nodeToInsert
+     */
     void InsertAtEndInCLL(CLLNode headNode, CLLNode nodeToInsert){
         CLLNode currentNode=headNode;
         while(currentNode.getNext()!=headNode){
@@ -66,6 +86,11 @@ public class CircularList {
         }
     }
 
+    /**
+     * 在循环链表的头部插入节点
+     * @param headNode
+     * @param nodeToInsert
+     */
     void InsertAtBeginInCLL(CLLNode headNode, CLLNode nodeToInsert){
         CLLNode currentNode=headNode;
         while(currentNode.getNext()!=headNode){
@@ -81,6 +106,10 @@ public class CircularList {
         }
     }
 
+    /**
+     * 在循环链表的尾部删除节点
+     * @param headNode
+     */
     void DeleteLastNodeFromCLL(CLLNode headNode){
         CLLNode temp=headNode;
         CLLNode currentNode=headNode;
@@ -97,6 +126,10 @@ public class CircularList {
         return;
     }
 
+    /**
+     * 在循环链表的头部删除节点
+     * @param headNode
+     */
     void DeleteFrontNodeFromCLL(CLLNode headNode){
         CLLNode temp=headNode;
         CLLNode currentNode=headNode;
